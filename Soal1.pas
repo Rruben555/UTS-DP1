@@ -5,7 +5,7 @@ biaya,harga: real;//menggunakan real karena adanya perhitungan dengan koma
 premium: string;//menggunakan string karena berupa lebih dari 1 karakter
 begin//mulai
     clrscr;//clear screen
-    write('Jarak(KM): '); readln(jarak);//input jarak
+    write('Jarak(KM): '); readln(jarak);//input jarak, mis:15
     write('Anggota premium: '); readln(premium);//input status premium dangan True/False
     if jarak > 10 then// kondisi jika jarak lebih dari 10 km
         biaya:=20000 + 3000*jarak//perhitungan biaya awal
